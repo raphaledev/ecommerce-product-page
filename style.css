@@ -260,13 +260,19 @@ input[type=number] {
 
 .black {
     color: black;
+}
+
+.bold {
     font-weight: bold;
 }
 
 .summary {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
     gap: 1rem;
-    margin: 1rem 0;
+    color: var(--Dark-grayish-blue );
 }
 
 .summary-flex {
@@ -474,6 +480,7 @@ input[type=number] {
         left: 5%;        
         margin: auto;
         width: 90%;
+        height: 80%;
         z-index: 1;
     }
     .main-image, .carousel {
